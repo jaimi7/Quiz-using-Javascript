@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: rgb(208, 244, 250);
+}
+.inner-div{
+    width: 40vw;
+    background: #fff;
+    padding: 2rem 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+.inner-div p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(3, 32, 95);
+    margin-bottom: 1rem;
+}
+.inner-div h2{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin: 0.5rem 0 1.5rem 0;
+}
+.inner-div li{
+    font-size: 1.05rem;
+    margin-top: 0.6rem;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+#submit,
+.btn{
+    padding: 0.5rem 1.5rem;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    margin-top: 1.2rem;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgb(115, 166, 241);
+    cursor: pointer;
+}
+#submit:hover{
+    background: rgb(54, 113, 240);
+}
+#result{
+    background: rgb(223, 219, 219);
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(58, 57, 57, 0.4);
+    border-radius: 0.3rem;
+}
+.score{
+    display: none;
+}
+#result h3{
+    text-align: center;
+}
+#result .btn{
+    background: rgb(63, 163, 32);
+    margin-top: 1rem;
+}
+#result .btn:hover{
+    background: rgb(1, 99, 14);
+}
